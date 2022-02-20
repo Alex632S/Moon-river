@@ -1,0 +1,17 @@
+/* body */
+$width-body: 1440;
+
+/* container */
+$width-container: 1120;
+$paddingX-container: 10;
+$marginX-container: 155;
+
+/* responsive font */
+@mixin responsive-font($pc-size, $mobile-size) {
+    $add-size: $pc-size - $mobile-size;
+    font-size: calc(#{$mobile-size + px} + #{$add-size} * ((100vw - 320px) / #{$width-body}));
+    $width-body: $width-body - 320;
+}
+
+/* fonst */
+$font-forum: 'Forum';
