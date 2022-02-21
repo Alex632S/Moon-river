@@ -19,6 +19,7 @@ a {
 .page__body {
     max-width: #{$width-body + px};
     margin: 0 auto;
+    font-family: $font-forum;
 }
 .container {
     max-width: #{$width-container + px};

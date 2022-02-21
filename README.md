@@ -1,4 +1,4 @@
-## Gulp assembly. Gulp with connected babel. 
+## Gulp assembly. Gulp with connected babel.
 Build uses this:
 - [pug](https://github.com/pugjs/pug)
 - [scss](https://github.com/postcss/postcss-scss)
