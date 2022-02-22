@@ -1,0 +1,84 @@
+.carousel {
+    background-color: #272727;
+}
+.carousel__title {
+    padding-top: 100px;
+    padding-left: 162px;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.carousel-content-box {
+    height: 385px;
+    width: 100%;
+    margin-top: 80px;
+}
+.carousel-content-box-item {
+    margin: 0 12.5px;
+}
+
+.carousel-links {
+    margin-top: 80px;
+    margin-left: 162px;
+    padding-bottom: 100px;
+    width: 89px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slick-dots,
+.slick-next,
+.slick-prev {
+    position: absolute;
+}
+.slick-dots {
+    right: calc(255 / 1440 * 100vw);
+    bottom: -105px;
+    display: flex;
+    button {
+        margin: 0 8.5px;   
+        font-size: 0;
+        width: 8px;
+        height: 11px;
+        border: none;
+        border-radius: 50%;
+        background-color: #656565;
+    }
+}
+.slick-active {
+    button {
+        background-color: #fff;
+        transform: scale(1.2);
+    }
+}
+
+.slick-prev {
+    background: url(../img/carousel/SVG/arrow-l.svg);
+    right: calc(446 / 1440 * 100vw);
+    &:hover {
+        transform: translateX(-5px);
+    }
+}
+.slick-next {
+    background: url(../img/carousel/SVG/arrow-r.svg);
+    right: calc(162 / 1440 * 100vw);
+    &:hover {
+        transform: translateX(5px);
+    }
+}
+.slick-prev, 
+.slick-next {
+    bottom: -115px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    font-size: 0;
+    height: 31px;
+    width: 53px;
+    transition: all .3s;
+    cursor: pointer;
+}
