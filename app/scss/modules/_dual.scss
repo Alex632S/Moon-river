@@ -86,7 +86,7 @@
         caret-color: #FFFFFF;
         background: none;
         border: none;
-        width: 320px;
+        width: 100%;
         outline:none;
     }
     textarea:focus, 
@@ -102,8 +102,6 @@
         transition: all .3s;
     }
     .dual-left-inner__enter:hover {
-        transform: translateX(10px);
-    }
-    .dual-right {
+        transform: translateX(5px);
     }
 }
