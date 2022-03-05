@@ -80,6 +80,7 @@
     width: 562px;
     display: flex;
     justify-content: center;
+    z-index: 11;
 }
 .menu {
     width: 261px;
@@ -131,4 +132,12 @@
     font-size: 18px;
     letter-spacing: 0.03em;
     color: #EFC58B;
+}
+.toggle-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }

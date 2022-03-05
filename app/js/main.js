@@ -31,3 +31,15 @@ $('.carousel-content-box').slick({
       }
     ]
   });
+
+$.when( $.ready ).then(function(){
+  $('.menu-drop').css('height',$(window).height());
+});
+
+$('.toggle-button').on('click', function(e) {
+  e.preventDefault();
+  $('.toggle-button__a').toggleClass('toggle-button__a-d');
+  $('.toggle-button__d').toggleClass('toggle-button__d-a');
+  $('.menu-drop').toggleClass('menu-active');
+  $('.page__body').toggleClass('overflow-hidden');
+});

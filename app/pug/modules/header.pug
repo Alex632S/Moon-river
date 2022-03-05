@@ -22,8 +22,10 @@ header.header
                     a.menu__link(href="#")
                         img(src="./img/header/SVG/ico.svg" alt="person")  
                 li.item 
-                    a.menu__link(href="#")
-                        img(src="./img/header/SVG/burger.svg" alt="burger")
+                    .menu__link
+                        a.toggle-button(href="#") 
+                            img.toggle-button__a(src="./img/header/SVG/burger.svg" alt="burger")
+                            img.toggle-button__d(src="./img/header/SVG/active.svg" alt="cross")
         .banner 
             img.banner__img(src="./img/header/PNG/ring.png", alt="ring")              
 
