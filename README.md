@@ -36,7 +36,7 @@ Hierarchy:
 
 ### The Scss folder.
 Hierarchy:
-<br>![pug_hierarchy](app/img/readme/02-sass-tree.png)
+<br>![scss_hierarchy](app/img/readme/02-sass-tree.png)
 
 > 1. The file named **style** is initializing.
 > 2. The files inside the **modules** folder are plug-ins to a file called **style**.
