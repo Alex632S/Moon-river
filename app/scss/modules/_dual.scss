@@ -7,9 +7,15 @@
 }
 .dual-left-image {
     background: url(../img/dual/JPG/he.jpg);
+    &:hover {
+        opacity: .9;
+    }
 } 
 .dual-right-image {
     background: url(../img/dual/JPG/she.jpg);
+    &:hover {
+        opacity: .9;
+    }
 }
 .dual-left, 
 .dual-right {

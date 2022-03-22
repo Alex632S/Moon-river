@@ -15,6 +15,9 @@ ul {
 a {
     text-decoration: none;
 }
+a:hover {
+    opacity: .8;
+}
 
 .page__body {
     max-width: #{$width-body + px};

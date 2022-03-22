@@ -3,6 +3,9 @@
     display: flex;
     justify-content: space-between;
 }
+.logo__img-min {
+    display: none;
+}
 .header-dark-side, 
 .header-light-side {
     height: 100%;
@@ -50,9 +53,6 @@
         top: 50%;
         left: -100%;    
     }
-    &:hover {
-        color: #C4C4C4;
-    }
 }
 .wrap-language {
     padding-bottom: 60px;
@@ -91,7 +91,14 @@
         margin-left: 81px;
     }
 }
-.menu__link {
+.menu__link-after {
+    position: relative;
+}
+.menu__link-after::after {
+    position: absolute;
+    content: "1";
+    color: #FFFFFF;
+    right: -12px;
 }
 .banner {
     width: 322px;
