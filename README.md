@@ -19,9 +19,9 @@ It uses Gulp and the pug and sass preprocessors.
 
 If you need to start the development mode, you need to enter the command inside the downloaded projects in the terminal: 
  ```
- $ npm i 
+ npm i 
  ```
-This command will help you install the development package.
+This command will help you install the development package (*node_modules*).
 
 ## The main modules of the project and their dependencies. 
 
@@ -34,7 +34,7 @@ Hierarchy:
 > 3. The files inside the includes folder are plug-ins  to a file named **index**.
 
 
-### The Scss file named **style** uses pug files.
+### The Scss folder.
 Hierarchy:
 <br>![pug_hierarchy](app/img/readme/02-sass-tree.png)
 
