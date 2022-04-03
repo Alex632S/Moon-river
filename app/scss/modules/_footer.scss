@@ -93,3 +93,36 @@
         }
     }   
 }
+
+
+@media screen and (max-width: 1200px) {
+    .footer-head, 
+    .content-wrap {
+        gap: 20px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer .container .subscribe {
+        margin-left: 0px;
+    }
+    .footer .container .footer-head, .footer .container .footer-bottom {
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .container .footer-links-inner {
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .container .app-links {
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .container .content-wrap {
+        display: flex;
+        align-items: center;
+    }
+    .footer-item {
+        text-align: center;
+    }
+}

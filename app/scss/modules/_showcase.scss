@@ -88,3 +88,17 @@
     letter-spacing: 0.03em;
     color: #EFC58B;
 }
+
+@media screen and (max-width: 1200px) {
+    .showcase {
+        flex-direction: column;
+        align-items: center;
+    }
+    .showcase-column-mono-flex {
+        margin: 20px 0;
+        height: 100vh; 
+    }
+    .showcase-column-mono-flex {
+        width: 100%;
+    }
+}

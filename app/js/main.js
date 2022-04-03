@@ -32,9 +32,10 @@ $('.carousel-content-box').slick({
     ]
   });
 
-$.when( $.ready ).then(function(){
-  $('.menu-drop').css('height',$(window).height());
-});
+  $(function(){
+    $('.menu-drop').css('height',$(window).height());
+    $('.header').css('height',$(window).height());
+  });
 
 $('.toggle-button').on('click', function(e) {
   e.preventDefault();

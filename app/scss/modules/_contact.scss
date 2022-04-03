@@ -69,3 +69,23 @@
         transform: translateX(5px);
     }
 }
+
+
+@media screen and (max-width: 1200px) {
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-content-wrap {
+        margin: 20px 0; 
+        .contact-content__subtitle {
+            margin-top: 30px;
+        }
+    }
+    .contact .contact-content-wrap {
+        width: 100%;
+    }
+    .contact .contact-image {
+        width: 100%;
+    }
+}

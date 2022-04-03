@@ -7,7 +7,7 @@
         color: #FFFFFF;
     }
     transition: .5s;
-    transform: translateY(-100%);
+    transform: translateY(-130%);
     .container {
         padding-top: 60px;
     }
@@ -68,4 +68,27 @@
 }
 .toggle-button__d-a {
     display: inline-flex;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .menu-drop {
+        display: flex;
+        justify-content: center;
+        .container {
+            padding-top: 60px;
+        }
+        .menu-categories {
+            min-width: 200px;
+            flex-direction: column;
+            gap: 25px;
+        }
+        .menu-categories__link {
+            text-transform: uppercase;
+        }
+        .list {
+           display: none;
+        }
+    }
 }
